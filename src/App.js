@@ -43,6 +43,7 @@ function App() {
                 onChange={e => setQuery(e.target.value)}
                 value={query}
                 onKeyPress={search}
+                //
             />
           </div>
           {(typeof weather.main != "undefined") ? (
